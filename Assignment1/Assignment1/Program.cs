@@ -21,7 +21,7 @@
         
         for (int i = 1; i <= daysInMonth; i++)
         {
-            Console.Write("{0,2} ", i);
+            Console.Write($"{i,2} ");
 
             
             if ((i + firstDay ) % 7 == 0)
